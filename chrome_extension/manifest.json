@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "name": "disrupt-hack",
+  "description": "One click deployment for Github repos using Digital Ocean",
+  "version": "1.0",
+  "background": {
+    "scripts":["main.js"]
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "content_scripts": [
+    {
+        "js":["content.js"]
+    }
+  ]
+}
